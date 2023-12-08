@@ -2,7 +2,7 @@ import "./styles.css";
 import Greeter from "./Greeter";
 import Dog from "./Dog";
 import LoginForm from './LoginForm';
-import DiceRolls from './DiceRolls'
+import DiceRoll from './DiceRoll'
 
 
 
@@ -12,7 +12,8 @@ export default function App() {
       <LoginForm/>
       <Greeter/>
       <Dog/>
-      <DiceRolls/>
+      <DiceRoll/>
+      <DiceRoll/>
 
     </div>
   );
